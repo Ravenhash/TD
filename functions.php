@@ -14,6 +14,11 @@ function techdata_files(){
   wp_enqueue_style('techdata_owl.theme.default.min.css', get_theme_file_uri('/css/owl.theme.default.min.css'));
   wp_enqueue_style('techdata_agnific-popup.min.css', get_theme_file_uri('/css/agnific-popup.min.css'));
 
+  wp_enqueue_style('techdata_theme.css', get_theme_file_uri('/css/theme.css'));
+  wp_enqueue_style('techdata_theme-elements.css', get_theme_file_uri('/css/theme-elements.css'));
+  wp_enqueue_style('techdata_theme-blog.css', get_theme_file_uri('/css/theme-blog.css'));
+  wp_enqueue_style('techdata_theme-shop.css', get_theme_file_uri('/css/theme-shop.css'));
+
 }
 
 add_action('wp_enqueue_scripts', 'techdata_files');

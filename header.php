@@ -12,7 +12,7 @@
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="<?php echo ( get_theme_file_uri( '/images/favicon.ico' ) ); ?>" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="<?php echo esc_url( get_theme_file_uri( '/assets/img/apple-touch-icon.png' ) ); ?>">
+		<link rel="apple-touch-icon" href="<?php echo ( get_theme_file_uri( '/images/apple-touch-icon.png' ) ); ?>">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -25,10 +25,7 @@
 	
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="<?php echo esc_url( get_theme_file_uri( '/assets/css/theme.css' ) ); ?>">
-		<link rel="stylesheet" href="<?php echo esc_url( get_theme_file_uri( '/assets/css/theme-elements.css' ) ); ?>">
-		<link rel="stylesheet" href="<?php echo esc_url( get_theme_file_uri( '/assets/css/theme-blog.css' ) ); ?>">
-		<link rel="stylesheet" href="<?php echo esc_url( get_theme_file_uri( '/assets/css/theme-shop.css' ) ); ?>">
+
 
 		<!-- Demo CSS -->
 		<link rel="stylesheet" href="<?php echo esc_url( get_theme_file_uri( '/assets/css/demos/demo-business-consulting-4.css' ) ); ?>">
